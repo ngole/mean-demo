@@ -1,0 +1,46 @@
+<div class="" data-ng-controller="ProductsController">
+    <h1>List Products</h1>
+    <h2>Package: {{package.name}}</h2>
+    <div class="container">
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Brand</th>
+                    <th>Price</th>
+                    <th>Created</th>
+                    <th>Updated</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="" class="btn btn-sm btn-primary">Show</a> </td>
+                    <td><a href="" class="btn btn-sm btn-warning">Edit</a> </td>
+
+                    <td>
+                        <form action="" method="post">
+                            <input type="hidden" name="_method" value="delete" />
+                            <input type="submit" class="btn btn-sm btn-danger" value="Delete" />
+                            <input type="hidden" name="_csrf" value="<%= _csrf %>" />
+                        </form>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           rm>
+                    </td>
+                    <!--<td><a href="/user/destroy/<%= user.id %>" class="btn btn-sm btn-danger">Delete</a> </td>-->
+                </tr>
+                <% }) %>
+            </table>
+        </div>
+    </div>
+    <h3><img src="/products/assets/img/logo.png" /></h3>
+    </br>
+    <p class="alert alert-info">You can find your package in /packages/products</p>
+    </br>
+    <p class="alert alert-warning">MEAN versions prior to 0.3.2 will be in /node_modules/products</p>
+    </br>
+    <h3><a href="http://learn.mean.io">Documentation</a></h3>
+    </br>
+</div>
